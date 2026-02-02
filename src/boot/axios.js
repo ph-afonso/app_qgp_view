@@ -2,7 +2,7 @@ import { boot } from 'quasar/wrappers'
 import axios from 'axios'
 import { useAuthStore } from 'stores/auth'
 
-const api = axios.create({ baseURL: 'http://localhost:8000/api' })
+const api = axios.create({ baseURL: process.env.API_URL })
 
 export default boot(({ app, router, store }) => {
   const authStore = useAuthStore(store)
