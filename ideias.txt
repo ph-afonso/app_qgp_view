@@ -1,0 +1,6 @@
+
+Adicionar no gráfico despesas de Rateio que eu nao repassei (O que eu devo)
+Clonar lançamento
+Os casos de despesa rateada devem criar uma notificação de aceite.
+    - Exemplo: O usuário pode ou não aceitar incluir essa despesa rateada.
+    - Quando uma despesa de rateio é lançada é interessante saber se foi repassado a parte devida pelos demais.

@@ -1,1 +1,49 @@
-// app global css in SCSS form
+/* ZERANDO O FUNDO (Importante para tirar o preto) */
+body, .q-page, .q-layout {
+  background-color: #f5f7fa; /* Cinza bem clarinho (Padrão Corporativo) */
+  color: #2c3e50; /* Cinza escuro para texto (Melhor que preto puro) */
+}
+
+/* --- PALETA DE CORES CORPORATIVA (GLOBAL) --- */
+
+/* Azul Marinho (Base da Marca) */
+.bg-navy {
+  background-color: #051933 !important;
+}
+.text-navy {
+  color: #051933 !important;
+}
+
+/* Ciano/Azul Claro (Destaques) */
+.text-cyan-brand {
+  color: #2eb7e6 !important;
+}
+.bg-cyan-brand {
+  background-color: #2eb7e6 !important;
+}
+
+/* Links (Remove sublinhado padrão) */
+a {
+  text-decoration: none;
+  color: #2eb7e6;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #051933;
+}
+
+/* Scrollbar mais suave (Cinza claro) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999; 
+}
